@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+I am the second wug.
+=======
+This is not a wug.
+>>>>>>>

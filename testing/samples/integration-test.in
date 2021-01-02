@@ -1,0 +1,14 @@
+> init
+<<<
+D HEADER "commit [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+> global-log
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*
+> find "nope"
+Found no commit with that message.
+<<<
